@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40D7193A2553A078DD52FCA3 /* Pods_egybike.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9333BEEF971DBC42AECDEDD7 /* Pods_egybike.framework */; };
+		AC0AEBCC21D083090031179E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0AEBCB21D083090031179E /* Main.storyboard */; };
+		AC35743B219053E50079596F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC35743A219053E50079596F /* AppDelegate.swift */; };
+		AC357442219053EF0079596F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC357441219053EF0079596F /* Assets.xcassets */; };
+		ACD47F6622101C8E00550B7A /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD47F6522101C8E00550B7A /* SignUp.swift */; };
+		ACD47F682210206C00550B7A /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD47F672210206C00550B7A /* LoginVC.swift */; };
+		ACD47F6A2210282F00550B7A /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD47F692210282F00550B7A /* HomeVC.swift */; };
+		ACD47F6C22102AD600550B7A /* LeftSidePanelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD47F6B22102AD600550B7A /* LeftSidePanelVC.swift */; };
+		ACE294A3221019E100FC4CA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE294A2221019DF00FC4CA4 /* LaunchScreen.storyboard */; };
+		D90B789A2241058C005067F8 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90B78992241058C005067F8 /* API.swift */; };
+		D90B789D22410817005067F8 /* string+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90B789C22410817005067F8 /* string+extension.swift */; };
+		D90B789F22411DDB005067F8 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90B789E22411DDB005067F8 /* Config.swift */; };
+		D90B78A12241C11A005067F8 /* QRScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90B78A02241C119005067F8 /* QRScannerController.swift */; };
+		D9AC4233223D443200465C3A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9AC4232223D443200465C3A /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2066879E6733A300F4350706 /* Pods-egybike.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-egybike.debug.xcconfig"; path = "Target Support Files/Pods-egybike/Pods-egybike.debug.xcconfig"; sourceTree = "<group>"; };
+		9333BEEF971DBC42AECDEDD7 /* Pods_egybike.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_egybike.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0AEBCB21D083090031179E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		AC357437219053E50079596F /* egybike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = egybike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC35743A219053E50079596F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC357441219053EF0079596F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC357446219053EF0079596F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD47F6522101C8E00550B7A /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		ACD47F672210206C00550B7A /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		ACD47F692210282F00550B7A /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		ACD47F6B22102AD600550B7A /* LeftSidePanelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSidePanelVC.swift; sourceTree = "<group>"; };
+		ACE29490220F38E400FC4CA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACE29491220F3A2400FC4CA4 /* egybike-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "egybike-Bridging-Header.h"; sourceTree = "<group>"; };
+		ACE294A2221019DF00FC4CA4 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6C3A7C2956D6F01AA4DB62B /* Pods-egybike.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-egybike.release.xcconfig"; path = "Target Support Files/Pods-egybike/Pods-egybike.release.xcconfig"; sourceTree = "<group>"; };
+		D90B78972241029D005067F8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D90B78992241058C005067F8 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = API.swift; path = API/API.swift; sourceTree = "<group>"; };
+		D90B789C22410817005067F8 /* string+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "string+extension.swift"; path = "extension/string+extension.swift"; sourceTree = "<group>"; };
+		D90B789E22411DDB005067F8 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		D90B78A02241C119005067F8 /* QRScannerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QRScannerController.swift; path = ../../../../Downloads/QRCodeReader/QRCodeReader/QRScannerController.swift; sourceTree = "<group>"; };
+		D9AC4232223D443200465C3A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC357434219053E50079596F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D7193A2553A078DD52FCA3 /* Pods_egybike.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35E5A1BA8AF041D0341137D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2066879E6733A300F4350706 /* Pods-egybike.debug.xcconfig */,
+				C6C3A7C2956D6F01AA4DB62B /* Pods-egybike.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AC35742E219053E50079596F = {
+			isa = PBXGroup;
+			children = (
+				D90B789B2241078B005067F8 /* Extensions */,
+				D90B789822410542005067F8 /* API */,
+				AC357439219053E50079596F /* egybike */,
+				AC357438219053E50079596F /* Products */,
+				35E5A1BA8AF041D0341137D6 /* Pods */,
+				E9B863359C8F63DA4584D7A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AC357438219053E50079596F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC357437219053E50079596F /* egybike.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC357439219053E50079596F /* egybike */ = {
+			isa = PBXGroup;
+			children = (
+				AC0AEBCB21D083090031179E /* Main.storyboard */,
+				D90B789E22411DDB005067F8 /* Config.swift */,
+				AC35743A219053E50079596F /* AppDelegate.swift */,
+				D90B789522410266005067F8 /* Controller */,
+				D90B789622410271005067F8 /* Supporting files */,
+				ACE29491220F3A2400FC4CA4 /* egybike-Bridging-Header.h */,
+				AC357446219053EF0079596F /* Info.plist */,
+				ACE29490220F38E400FC4CA4 /* AppDelegate.h */,
+				D9AC4232223D443200465C3A /* GoogleService-Info.plist */,
+			);
+			path = egybike;
+			sourceTree = "<group>";
+		};
+		D90B789522410266005067F8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ACD47F672210206C00550B7A /* LoginVC.swift */,
+				ACD47F6522101C8E00550B7A /* SignUp.swift */,
+				ACD47F692210282F00550B7A /* HomeVC.swift */,
+				D90B78A02241C119005067F8 /* QRScannerController.swift */,
+				ACD47F6B22102AD600550B7A /* LeftSidePanelVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D90B789622410271005067F8 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				ACE294A2221019DF00FC4CA4 /* LaunchScreen.storyboard */,
+				AC357441219053EF0079596F /* Assets.xcassets */,
+				D90B78972241029D005067F8 /* GoogleService-Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		D90B789822410542005067F8 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				D90B78992241058C005067F8 /* API.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		D90B789B2241078B005067F8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D90B789C22410817005067F8 /* string+extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E9B863359C8F63DA4584D7A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9333BEEF971DBC42AECDEDD7 /* Pods_egybike.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC357436219053E50079596F /* egybike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC357449219053EF0079596F /* Build configuration list for PBXNativeTarget "egybike" */;
+			buildPhases = (
+				419965918D1B95FA9FDDCA25 /* [CP] Check Pods Manifest.lock */,
+				AC357433219053E50079596F /* Sources */,
+				AC357434219053E50079596F /* Frameworks */,
+				AC357435219053E50079596F /* Resources */,
+				87517872C4175D1DB1489596 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = egybike;
+			productName = egybike;
+			productReference = AC357437219053E50079596F /* egybike.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC35742F219053E50079596F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = osman;
+				TargetAttributes = {
+					AC357436219053E50079596F = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+					};
+				};
+			};
+			buildConfigurationList = AC357432219053E50079596F /* Build configuration list for PBXProject "egybike" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC35742E219053E50079596F;
+			productRefGroup = AC357438219053E50079596F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC357436219053E50079596F /* egybike */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC357435219053E50079596F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE294A3221019E100FC4CA4 /* LaunchScreen.storyboard in Resources */,
+				D9AC4233223D443200465C3A /* GoogleService-Info.plist in Resources */,
+				AC0AEBCC21D083090031179E /* Main.storyboard in Resources */,
+				AC357442219053EF0079596F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		419965918D1B95FA9FDDCA25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-egybike-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87517872C4175D1DB1489596 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-egybike/Pods-egybike-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-egybike/Pods-egybike-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC357433219053E50079596F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD47F6C22102AD600550B7A /* LeftSidePanelVC.swift in Sources */,
+				ACD47F682210206C00550B7A /* LoginVC.swift in Sources */,
+				D90B789D22410817005067F8 /* string+extension.swift in Sources */,
+				ACD47F6A2210282F00550B7A /* HomeVC.swift in Sources */,
+				AC35743B219053E50079596F /* AppDelegate.swift in Sources */,
+				D90B78A12241C11A005067F8 /* QRScannerController.swift in Sources */,
+				D90B789F22411DDB005067F8 /* Config.swift in Sources */,
+				D90B789A2241058C005067F8 /* API.swift in Sources */,
+				ACD47F6622101C8E00550B7A /* SignUp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AC357447219053EF0079596F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC357448219053EF0079596F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC35744A219053EF0079596F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2066879E6733A300F4350706 /* Pods-egybike.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-3";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X45XVSJ44L;
+				INFOPLIST_FILE = egybike/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cc.egybike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "egybike/egybike-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AC35744B219053EF0079596F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6C3A7C2956D6F01AA4DB62B /* Pods-egybike.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-3";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X45XVSJ44L;
+				INFOPLIST_FILE = egybike/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cc.egybike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "egybike/egybike-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC357432219053E50079596F /* Build configuration list for PBXProject "egybike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC357447219053EF0079596F /* Debug */,
+				AC357448219053EF0079596F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC357449219053EF0079596F /* Build configuration list for PBXNativeTarget "egybike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC35744A219053EF0079596F /* Debug */,
+				AC35744B219053EF0079596F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC35742F219053E50079596F /* Project object */;
+}
